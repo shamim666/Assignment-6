@@ -9,21 +9,32 @@
 </head>
 <body>
 
-    <h2 class="text-center text-info my-4">Search Your Favourite Book</h2>
+    <h2 class="text-center text-info my-5">Search Your Favourite Book</h2>
 
 
       <!-- searcing Book  -->
-      <div class="input-group my-8 w-50 mx-auto">
+      <div class="input-group  w-50 mx-auto my-5">
         <input id="searchinput"type="text" class="form-control" placeholder="Book name" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button id="searchbutton" onclick = "loadBook()"class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
       </div>
 
-      <!-- displaying Book  -->
 
-      <div id="bookdisplay" class="row row-cols-1 row-cols-md-3 g-4">
+<div id="resultnumber" class="w-50 mx-auto ">
+
+</div>
+
+
+
+           <!-- displaying Book  -->
+
+      <div id="bookdisplay" class="my-5 row row-cols-1 row-cols-md-3 g-4">
         </div>
 
+      
+        <!-- Error Displaying  -->
 
+        <h3 id="error" class="text-center text-danger ">
+        </h3>
 
 
 
